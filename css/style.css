@@ -28,6 +28,9 @@ html, body{
 .h200{
     height: 200px;
 }
+.hide{
+visibility: hidden;
+}
 .table{
     display: table;
 }
