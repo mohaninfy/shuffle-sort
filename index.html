@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<header>
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/script.js" type="text/javascript"></script>
+</header>
+<body>
+<!-- Desktop UI -->
+<div class="large">
+    <div class="w100">
+        <p class="deskHeader"><b>Shuffle and Sort</b></p>
+    </div>
+    <div class="w100 mB10">
+        <div class="w80 float-left">
+            <div id="desktopView" class="w100 mB10"></div>
+            <div class="w100 text-right">
+                <p><i>Shuffle and Sort by Mohanasundaram Mohan</i></p>
+            </div>
+        </div>
+        <div class="w20 float-left text-center">
+            <button class="sortBtn" onclick="updateWebTable('shuffle')">Shuffle</button>
+            <br>
+            <button class="shuffleBtn" onclick="updateWebTable('sort')">Sort</button>
+        </div>
+    </div>   
+</div>
+<!-- mobile device UI -->
+
+<div class="small">
+    <div class="mobHeader w100 mB10">
+        <div class="pT15"><b>Shuffle and Sort</b></div>
+    </div>
+     <div class="w100 float-left">
+        <div class="w50 float-left text-center">
+             <button class="sortBtn" onclick="updateMobTable('shuffle')">Shuffle</button>
+        </div>
+        <div class="w50 float-left text-center">
+             <button class="shuffleBtn" onclick="updateMobTable('sort')">Sort</button>
+        </div>                      
+    </div>
+    <div class="w100">
+        <div class="mobContainer float-left" id="mobileView">
+        </div>       
+    </div>
+    <div class="w100 text-center">
+        <p><i>Shuffle and Sort  by Mohanasundaram Mohan</i></p>
+    </div>
+</div>
+</body>
+</html>
